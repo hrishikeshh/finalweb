@@ -1,0 +1,175 @@
+languageCode: en-us
+baseURL: "https://hrishikeshh.github.io/"
+title: Hrishikesh Singh
+paginate: 5
+theme: PaperMod
+
+publishDir : "./docs"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+#googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Hrishikesh Singh
+  description: "This is the website of Hrishikesh Singh."
+  keywords: [Blog, Portfolio]
+  author: Hrishikesh Singh
+  # author: ["Me", "You"] # multiple authors
+  #images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  label:
+    text: "Hrishikesh"
+    icon: "images/coding.png"
+    iconHeight: 35
+
+  # profile-mode
+
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: "Welcome! \U0001F44B"
+
+    subtitle: "Contrary to popular belief, Lorem Ipsum is not simply random text. 
+    It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+    Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. 
+    "
+    
+    imageUrl: "images/dp.png"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: "Hrishi"
+    buttons:
+      - name: Browsing through 📚
+        url: reading
+      - name: Mail me 📨
+        url: mailto:hrishikesh.hsk@gmail.com
+      # - name: Projects
+      #   url: projects
+      # - name: Courses
+      #   url: courses
+
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Welcome! \U0001F44B"
+    Content: "This is the website of **Hrishikesh Singh**"
+
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/hrishikesh-singh/"
+    - name: github
+      url: "https://github.com/hrishikeshh"
+    - name: email
+      url: "mailto:hrishikesh.hsk@gmail.com"
+    # - name: youtube
+    #   url: "http://youtube.com/-------"
+    # - name: medium
+    #   url: "https://medium.com/"
+    # - name: twitter
+    #   url: "https://twitter.com/XXXXXXXXXX"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+
+  editPost:
+#    URL: "https://github.com/chanin-www/content"
+#    Text: "Suggest Changes" # edit text
+    URL: ""
+    Text: "" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    # - identifier: about
+    #   name: About
+    #   url: /about/
+    #   weight: 4
+    # - identifier: blog
+    # name: Blogs
+    # url: /blogs/
+    # weight: 1
+    - identifier: projects
+      name: Projects 🔭
+      url: /projects/
+      weight: 2
+    # - identifier: infographics
+    #   name: Infographics
+    #   url: /infographics/
+    #   weight: 3
+    # - identifier: Tags
+    #   name: tags
+    #   url: /tags/
+    #   weight: 4
+    - identifier: publications
+      name: Publications 📑
+      url: /publications/
+      weight: 5
+    # - identifier: reading
+    #   name: Reading
+    #   url: /reading/
+    #   weight: 6
+    - identifier: learning
+      name: Learning 🔖
+      url: /learning/
+      weight: 7
+
+    #- identifier: example
+    #  name: example.org
+    #  url: https://example.org
+    #  weight: 30
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         style: monokai
