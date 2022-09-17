@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://hrishikeshh.github.io/finalweb/sitemap.xml
