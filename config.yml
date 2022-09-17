@@ -22,7 +22,7 @@ params:
   title: Hrishikesh Singh
   description: "This is the website of Hrishikesh Singh and I create educational content on data science. Some of you may know me as the **Data Professor**."
   keywords: [Blog, Portfolio, Data Science]
-  author: Hrishikesh
+  author: Hrishikesh Singh
   # author: ["Me", "You"] # multiple authors
   #images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -33,7 +33,7 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   disableSpecial1stPost: false
   disableScrollToTop: false
   comments: false
@@ -48,11 +48,19 @@ params:
     iconHeight: 35
 
   # profile-mode
+
   profileMode:
     enabled: true # needs to be explicitly set
     title: "Welcome! \U0001F44B"
-    subtitle: "This is the website of **Hrishikesh Singh** and
-    I create educational content on data science and [**bioinformatics**](www.google.com)."
+
+    subtitle: "This is the website of **Hrishikesh Singh** <br>
+    I wanna see. Connct asdfasdfsadfa asdf asdf sdf sdf sdf sdf sdfsadf sdf sdf sdf adf asdf asfd Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. 
+    Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. 
+    The first line of Lorem Ipsum, comes from a line in section 1.10.32. 
+    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. 
+    Sections 1.10.32 and 1.10.33 from by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+    "
+    
     imageUrl: "images/dp.png"
     imageWidth: 120
     imageHeight: 120
@@ -64,29 +72,29 @@ params:
         url: projects
       - name: Courses
         url: courses
+      - name: Shoot
+        url: mailto:hrishikesh.hsk@gmail.com
 
   # home-info mode
   homeInfoParams:
     Title: "Welcome! \U0001F44B"
-    Content: "This is the website of **Hrishikesh Singh** and
-    I create educational content on data science and bioinformatics.
-    Some of you may know me as the **Data Professor**."
+    Content: "This is the website of **Hrishikesh Singh**"
 
   socialIcons:
-    - name: youtube
-      url: "http://youtube.com/hrishikeshh"
-    - name: medium
-      url: "https://medium.com/@data-professor"
-    - name: twitter
-      url: "https://twitter.com/thedataprof"
+    # - name: youtube
+    #   url: "http://youtube.com/hrishikeshh"
+    # - name: medium
+    #   url: "https://medium.com/"
+    # - name: twitter
+    #   url: "https://twitter.com/thedataprof"
     - name: linkedin
-      url: "https://www.linkedin.com/in/chanin-nantasenamat/"
+      url: "https://www.linkedin.com/in/hrishikesh-singh/"
     - name: github
-      url: "https://github.com/dataprofessor"
-    - name: buymeacoffee
-      url: "https://www.buymeacoffee.com/dataprofessor"
+      url: "https://github.com/hrishikeshh"
+    # - name: buymeacoffee
+    #   url: "https://www.buymeacoffee.com/dataprofessor"
     - name: email
-      url: "hrishikesh.hsk@gmail.com"
+      url: "mailto:hrishikesh.hsk@gmail.com"
 
   analytics:
     google:
@@ -119,6 +127,7 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+
 menu:
   main:
     - identifier: about
@@ -129,18 +138,30 @@ menu:
       name: Blogs
       url: /blogs/
       weight: 1
-    - identifier: projects
-      name: Projects
-      url: /projects/
-      weight: 2
-    - identifier: infographics
-      name: Infographics
-      url: /infographics/
-      weight: 3
-    - identifier: Tags
-      name: tags
-      url: /tags/
-      weight: 4
+    # - identifier: projects
+    #   name: Projects
+    #   url: /projects/
+    #   weight: 2
+    # - identifier: infographics
+    #   name: Infographics
+    #   url: /infographics/
+    #   weight: 3
+    # - identifier: Tags
+    #   name: tags
+    #   url: /tags/
+    #   weight: 4
+    - identifier: publications
+      name: Publications
+      url: /publications/
+      weight: 5
+    - identifier: reading
+      name: Reading
+      url: /reading/
+      weight: 6
+    - identifier: learning
+      name: Learning
+      url: /learning/
+      weight: 7
 
     #- identifier: example
     #  name: example.org
