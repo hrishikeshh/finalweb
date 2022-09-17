@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Publications on Hrishikesh Singh</title>
-    <link>https://hrishikeshh.github.io/finalweb/publications/</link>
+    <link>https://hrishikeshh.github.io/publications/</link>
     <description>Recent content in Publications on Hrishikesh Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Apr 2022 23:15:00 +0700</lastBuildDate><atom:link href="https://hrishikeshh.github.io/finalweb/publications/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Apr 2022 23:15:00 +0700</lastBuildDate><atom:link href="https://hrishikeshh.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Empirical Analysis of Bitcoin Market Volatility Using Supervised Learning Approach</title>
-      <link>https://hrishikeshh.github.io/finalweb/publications/emp-bitcoin/</link>
+      <link>https://hrishikeshh.github.io/publications/emp-bitcoin/</link>
       <pubDate>Tue, 05 Apr 2022 23:15:00 +0700</pubDate>
       
-      <guid>https://hrishikeshh.github.io/finalweb/publications/emp-bitcoin/</guid>
+      <guid>https://hrishikeshh.github.io/publications/emp-bitcoin/</guid>
       <description>Abstract:1 Crypto currencies are considered as the next model of economics and monetary exchange. In recent years, popular cryptocurrency such as Bitcoin and Ethereum witness an exponential growth in economic sphere. In this paper empirical testing of four conventional machine learning methods is performed to predict the bitcoin prices using last eight years of transactional data. Linear and polynomial regression is implemented using all the features individually. Polynomial regression, Support Vector regression and KNN regression are hyper tuned with grid search logic.</description>
     </item>
     
