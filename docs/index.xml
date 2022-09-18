@@ -88,7 +88,15 @@ In this article, you’ll learn how to master Streamlit when getting started wit
       <pubDate>Tue, 05 Apr 2022 23:15:00 +0700</pubDate>
       
       <guid>https://hrishikeshh.github.io/finalweb/learning/erpred/</guid>
-      <description>Abstract Estrogen receptors alpha and beta (ERα and ERβ) are responsible for breast cancer metastasis through their involvement of clinical outcomes. Estradiol and hormone replacement therapy targets both ERs, but this often leads to an increased risk of breast and endometrial cancers as well as thromboembolism. A major challenge is posed for the development of compounds possessing ER subtype specificity. Herein, we present a large-scale classification structure-activity relationship (CSAR) study of inhibitors from the ChEMBL database which consisted of an initial set of 11,618 compounds for ERα and 7,810 compounds for ERβ.</description>
+      <description>Abstract PYTHON COLLECTION MODULES
+DICTIONARY
+dict collections.OrderedDict collections.defaultdict collections.ChainMap types.MappingProxyType ARRAY
+list tuple array.array str bytes bytearray CLASSES
+dataclasses.dataclass collections.namedtuple typing.NamedTuple struct.Struct types.SimpleNamespace SETS and MULTISETS
+set frozenset collections.Counter STACKS (LIFOs)
+list collections.deque queue.LifoQueue QUEUES (FIFOs)
+list collections.deque queue.Queue multiprocessing.Queue PRIORITY QUEUES
+list heapq queue.PriorityQueue Full-text article Read article</description>
     </item>
     
     <item>
@@ -106,7 +114,7 @@ In this article, you’ll learn how to master Streamlit when getting started wit
       <pubDate>Sun, 03 Apr 2022 23:15:00 +0700</pubDate>
       
       <guid>https://hrishikeshh.github.io/finalweb/learning/course_url_name/</guid>
-      <description></description>
+      <description>Tables Syntax Description Test Text Header Title Here&amp;rsquo;s this Paragraph Text And more result = client.payments.get_payment( payment_id = &amp;#34;{{PAYMENT_ID}}&amp;#34; ) if result.is_success(): pprint(result.body) elif result.is_error(): pprint(result.errors) const express = require(&amp;#34;express&amp;#34;); const app = express(); const port = 3000; app.get(&amp;#34;/&amp;#34;, (req, res) =&amp;gt; { res.send(&amp;#34;Hello World!&amp;#34;); }); app.listen(port, () =&amp;gt; { console.log(`Example app listening at http://localhost:${port}`); }); class Solution: def isPalindrome(self, x: int) -&amp;gt; bool: if x&amp;lt;0: return False num = str(x) f = num[:int(len(num)/2):1] s = num[-1:-int(len(num)/2)-1:-1] if f == s: return True return False </description>
     </item>
     
     <item>
