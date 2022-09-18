@@ -16,7 +16,52 @@ draft: false
 
 # Abstract
 
-Estrogen receptors alpha and beta (ERα and ERβ) are responsible for breast cancer metastasis through their involvement of clinical outcomes. Estradiol and hormone replacement therapy targets both ERs, but this often leads to an increased risk of breast and endometrial cancers as well as thromboembolism. A major challenge is posed for the development of compounds possessing ER subtype specificity. Herein, we present a large-scale classification structure-activity relationship (CSAR) study of inhibitors from the ChEMBL database which consisted of an initial set of 11,618 compounds for ERα and 7,810 compounds for ERβ. The IC50 was selected as the bioactivity unit for further investigation and after the data curation process, this led to a final data set of 1,593 and 1,281 compounds for ERα and ERβ, respectively. We employed the random forest (RF) algorithm for model building and of the 12 fingerprint types, models built using the PubChem fingerprint was the most robust (Ac of 94.65% and 92.25% and Matthews correlation coefficient (MCC) of 89% and 76% for ERα and ERβ, respectively) and therefore selected for feature interpretation. Results indicated the importance of features pertaining to aromatic rings, nitrogen-containing functional groups and aliphatic hydrocarbons. Finally, the model was deployed as the publicly available web server called ERpred at http://codes.bio/erpred where users can submit SMILES notation as the input query for prediction of the bioactivity against ERα and ERβ.
+**PYTHON COLLECTION MODULES**
+
+__DICTIONARY__
+* dict
+* collections.OrderedDict
+* collections.defaultdict
+* collections.ChainMap
+* types.MappingProxyType
+
+__ARRAY__
+* list
+* tuple
+* array.array
+* str
+* bytes
+* bytearray
+
+__CLASSES__
+* dataclasses.dataclass
+* collections.namedtuple
+* typing.NamedTuple
+* struct.Struct
+* types.SimpleNamespace
+
+__SETS and MULTISETS__
+* set
+* frozenset
+* collections.Counter
+
+__STACKS (LIFOs)__
+* list
+* collections.deque
+* queue.LifoQueue
+
+__QUEUES (FIFOs)__
+* list
+* collections.deque
+* queue.Queue
+* multiprocessing.Queue
+
+__PRIORITY QUEUES__
+* list
+* heapq
+* queue.PriorityQueue
+    
+
 
 # Full-text article
 [Read article](https://peerj.com/articles/11716/)
