@@ -14,4 +14,4 @@ showtoc: true
 draft: false
 ---
 
-(Link)[https://www.goodreads.com/book/show/57771229-the-expectation-effect]
+[Link](https://www.goodreads.com/book/show/57771229-the-expectation-effect)

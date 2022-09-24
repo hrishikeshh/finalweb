@@ -14,4 +14,4 @@ showtoc: true
 draft: false
 ---
 
-(link)[https://www.goodreads.com/book/show/41817546-the-intelligence-trap]
+[link](https://www.goodreads.com/book/show/41817546-the-intelligence-trap)
