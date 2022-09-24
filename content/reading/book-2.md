@@ -1,5 +1,5 @@
 ---
-title: "The Intelligence Trap: Why Smart People Make Dumb Mistakes"
+title: "The Expectation Effect: How Your Mindset Can Change Your World"
 date: 2022-04-08T23:15:00+07:00
 slug: book_1
 category: blog
@@ -14,4 +14,4 @@ showtoc: true
 draft: false
 ---
 
-(link)[https://www.goodreads.com/book/show/41817546-the-intelligence-trap]
+(Link)[https://www.goodreads.com/book/show/57771229-the-expectation-effect]
