@@ -1,7 +1,7 @@
 ---
 title: "The Expectation Effect: How Your Mindset Can Change Your World"
-date: 2022-04-08T23:15:00+07:00
-slug: book_1
+date: 2022-04-10T23:15:00+07:00
+slug: book_2
 category: blog
 summary:
 description: 
